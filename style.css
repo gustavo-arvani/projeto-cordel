@@ -1,0 +1,97 @@
+@charset UTF-8;
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+:root{
+    --fonte-manuscrita:"Handlee", cursive;
+    --fonte-destaque: 'Passion One', arial, sans-serif;
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 2.7em;
+}
+
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte-destaque);
+}
+
+header p{
+    font-size: 0.6em;
+    padding-bottom: 50px;
+    font-family: var(--fonte-padrao);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 6vh;
+    line-height: 2.1em;
+    padding-left: 30px;
+    font-family: var(--fonte-manuscrita);
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+section p{
+    padding-bottom: 2em;
+}
+
+.normal{
+    background-color: white;
+}
+
+.imagem{
+    background-color: rgba(62, 62, 62, 0.951);
+    color: white;
+    box-shadow: inset 6px 6px 13px  0px rgba(0, 0, 0, 0.537);
+}
+
+.imagem p{
+    background-color: rgba(0, 0, 0, 0.496);
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.827);
+}
+
+#img01{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+#img02{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+}
